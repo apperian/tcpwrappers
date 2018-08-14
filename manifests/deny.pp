@@ -11,7 +11,7 @@ define tcpwrappers::deny
   $mask = $parts[1]
 
   # Validate the inputs
-  validate_re( $addr, 'ALL|^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$' )
+  validate_re( $addr, 'ALL|LOCAL|UNKNOWN|KNOWN|PARANOID|^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$' )
   if ( $mask ) {
     validate_re( $mask, '^\d+$|^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$' )
   }
