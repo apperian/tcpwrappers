@@ -1,6 +1,6 @@
 {
   "name": "sharumpe-tcpwrappers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Tim McLaughlin <nospam@macwebb.com>",
   "summary": "Manages tcpd/tcpwrappers in /etc/hosts.allow and /etc/hosts.deny.",
   "license": "Apache-2.0",
