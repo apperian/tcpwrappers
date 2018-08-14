@@ -1,0 +1,40 @@
+{
+  "name": "sharumpe-tcpwrappers",
+  "version": "1.0.2",
+  "author": "Tim McLaughlin <nospam@macwebb.com>",
+  "summary": "Manages tcpd/tcpwrappers in /etc/hosts.allow and /etc/hosts.deny.",
+  "license": "Apache-2.0",
+  "source": "TBA",
+  "project_page": "UNKNOWN",
+  "issues_url": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem": "OpenSuse",
+      "operatingsystemrelease": [
+        "13.1"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04"
+      ]
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.0.0"},
+    {"name":"puppetlabs/concat","version_requirement":">= 1.0.4"}
+  ]
+}
